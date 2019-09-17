@@ -1,3 +1,9 @@
+/*
+ * @Descripttion: 
+ * @Version: 
+ * @Author: rsvici
+ * @Date: 2017-09-19 22:24:54
+ */
 //
 // SmoothScroll for websites v1.4.6 (Balazs Galambosi)
 // http://www.smoothscroll.net/
@@ -363,7 +369,7 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, deltaX, deltaY);
-    event.preventDefault();
+    // event.preventDefault();
     scheduleClearCache();
 }
 
